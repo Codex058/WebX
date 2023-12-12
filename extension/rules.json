@@ -1,0 +1,14 @@
+[
+    {
+      "id": 12345,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "*://*.zedo.com/*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "image", "stylesheet", "object", "xmlhttprequest", "ping", "csp_report", "media", "font", "websocket", "other"]
+      }
+    }
+  ]
+  
